@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #222222;
+}
+
+#barratopo{
+    width: 100%;
+    max-width: 1280px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+    word-spacing: 50px;
+}
+
+.sociais{
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+}
+
+#login{
+    color: #ffcc00;
+    background-color: #222222;
+    width: 300px;
+    height: 35px;
+    border: 2px solid #00b5b4;
+    border-radius: 30px;
+    float: right;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px black;
+}
+#login:hover{
+    background-color: #ff3e3e;
+}
+
+#barralogo{
+    width: 0px;
+    height: 30px;
+}
+
+#logo{
+    width: 300px;
+    height: 150px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#barramenu{
+    width: 75%;
+    max-width: 1280px;
+    text-shadow: 2px 2px 4px black;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    float: right;
+    word-spacing: 50px;
+    text-decoration: none;
+}
+
+.menu{
+    color: #f8f5e8;
+    text-decoration: none;
+}
+.menu:hover{
+    color: #ffcc00;
+    background-color: #00b5b4;
+    border-radius: 30px;
+}
+
+#menuselect{
+    color: #ffcc00;
+    padding: 5px;
+    border: 2px solid #00b5b4;
+    border-radius: 7px;
+}
+#menuselect:hover{
+    background-color: #ff3e3e;
+}
+
+
+#video1{
+    margin-top: 110px;
+    max-width: 1280px;
+}
+
+.video2{
+    margin-top: 20px;
+    max-width: 1280px;
+}
+
+.video3{
+    margin-top: 0px;
+    max-width: 1280px;
+}
+
+.sobre{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+.regras{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+#inscricao1{
+    margin-top: 10px;
+    margin-left: 685px;
+    width: 650px;
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+#inscricao2{
+    margin-left:15px;
+    width: 650px;
+    height: 650px;
+    margin-bottom: 15px;    
+}
+
+h1{
+    color: #f8f5e8;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+h1:hover{
+    color: #00b5b4;
+}
+h2{
+    color: #f8f5e8;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
+
+p{
+    color: #f8f5e8;
+    font-size: 13px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+
+#p1{
+    color: #00b5b4;
+    font-size: 8px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 2px;
+}
+#p2{
+    color: #EEE;
+    text-shadow: 2px 2px 4px black;
+    font-size: 15px;
+}
+label{
+    color: #EEE;
+    display: block;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+.label:hover{
+    color: #00b5b4;
+}
+
+input{
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #EEE;
+    margin-top: 5px;
+    padding: 15px;
+    outline: none;
+    width: 520px;
+    border: 1px solid #222222;
+}
+input:hover{
+    background-color: #f8f5e8;
+}
+select{
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #EEE;
+    text-align: center;
+    margin-top: 5px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #CCC;
+    width: 400px;
+}
+select:hover{
+    background-color: #f8f5e8;
+}
+
+#reset{
+    text-decoration: none;
+    color: #00b5b4;
+    text-shadow: 2px 2px 4px black;
+    font-size: 10px;
+}
+#reset:hover{
+    text-decoration: underline;
+    color: #f8f5e8;
+}
+
+#checkbox{
+    width: auto;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+}
+#privacypolicy, .privacypolicy2{
+    text-decoration: none;
+    color: #EEE;
+    text-shadow: 2px 2px 4px black;
+    font-size: 12px;
+}
+.privacypolicy2:hover{
+    text-decoration: underline;
+    color: #00b5b4;
+}
+
+button{
+    color: #EEE;
+    padding: 10px;
+    font-size: 15px;
+    text-shadow: 4px 4px 8px black;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #00b5b4;
+    border: 1px solid #222222;
+    outline: none;
+}
+button:hover{
+    color: #222222;
+    background-color: #EEE;
+}
+
+.contato1{
+    color: #f8f5e8;
+    font-size: 35px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 150px;
+    margin-left:15px;
+    height: 650px;
+    margin-bottom: 500px;
+}
+.contato2{
+    color: #ffcc00;
+    padding: 5px;
+    border: 2px solid #00b5b4;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.contato2:hover{
+    background-color: #ff3e3e;
+}
+
+textarea{
+    width: 650px;
+    height: 250px;
+    resize: none;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    border: 1px solid #222222;
+    background-color: #EEE;
+}
+textarea:hover{
+    background-color: #f8f5e8;
+}
+#anexos{
+    width: 650px;
+    text-decoration: none;
+    color: #222222;
+    text-shadow: 2px 2px 4px black;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width:280px) and (max-width:375px){
+    #barratopo{
+        width: 100%;
+    }
+    #login{
+        width: 0px;
+        height: 0px;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>gcOn</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <!-- Redes sociais -->
+        <div id="barratopo">
+            <a class="sociais" href="https://pt-br.facebook.com/" target="_blank">
+                <img src="images/facebook.png"/ title="facebook | gcOn">
+            </a>
+            <a class="sociais" href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.png"/ title="twitter | gcOn">
+            </a>
+            <a class="sociais" href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png"/ title="instagram | gcOn">
+            </a>
+            <a class="sociais" href="https://www.youtube.com/" target="_blank">
+                <img src="images/youtube.png"/ title="canal | gcOn">
+            </a>
+        </div>
+
+        <!-- LOGO -->
+        <div id="barralogo">
+            <a href="index.html">
+                <img id="logo" src="images/gc On- logo3.png" title="gcOn" />
+            </a>
+        </div>
+
+        <div class="contato1">
+            <p>
+                <a id="reset" href="index.html">gcOn</a>
+                <a id="privacypolicy">></a>
+                <a id="privacypolicy">Enviar um Pedido</a>
+            </p>
+            
+            <br/>
+
+            <h1>Enviar um Pedido</h1>
+
+            <br/>
+
+            <label class="label">
+                O que você deseja? <br/>
+                <select name="pedido">
+                    <option>Selecione uma opção</option>
+                    <option>Dúvida</option>
+                    <option>Sugestão</option>
+                    <option>Elogio</option>
+                </select>
+            </label>
+
+            <label class="label">
+                E-mail: <br/>
+                <input type="email" name="email"/>
+            </label>
+
+            <label class="label">
+                Assunto: <br/>
+                <input type="text" name="assunto"/>
+
+                <p id="p1">
+                    Por favor, seja descritivo.
+                    <br/>
+                </p>
+            </label>
+
+            <label class="label">
+                Por favor, insira os detalhes do seu pedido.<br/>
+                <p id="p1">Um membro de nossa equipe de suporte responderá o mais rápido possível.
+                    <br/>
+                </p>
+                <textarea name="descricao"></textarea>
+            </label>
+
+            <label class="label">
+                Anexos: <br/>
+                <input type="file" multiple="true" id="anexos" name="anexos"/>
+            </label>
+
+            <button style="margin-bottom: 100px;">Enviar</button>
+        </div>
+    </body>
+</html>
